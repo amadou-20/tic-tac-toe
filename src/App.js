@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import Board from "./components/Board";
+import Game from "./components/Game";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="app">
-      <Board />
+      <Game />
     </div>
   );
 }
